@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+#app {
+  width: 600px;
+  border: 2px solid #434142;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#screen {
+  background: #202020;
+  color: #b4b4b4;
+  width: 100%;
+  height: 200px;
+  color: #ffffff;
+  position: relative;
+}
+#screen p {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60pt;
+}
+#buttons div.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#buttons .row #zero_btn {
+  flex: 300px;
+  text-align: left;
+  padding-left: 20px;
+}
+#buttons .row div {
+  flex: 150px;
+  background: linear-gradient(to bottom, #d4d5d7, #d1d2d6);
+  border: 1px solid #6d6e70;
+  padding: 20px 0;
+  cursor: pointer;
+  text-align: center;
+  color: #000002;
+  font-size: 32pt;
+}
+#buttons .row div:hover {
+  background: #b0b3b7;
+}
+#buttons .row div.orange {
+  background: linear-gradient(to right, #f99212, #fa8815);
+  color: #fff;
+}
+#buttons .row div.orange:hover {
+  background: #f88300;
+}
